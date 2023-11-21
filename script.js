@@ -15,22 +15,22 @@ $(function () {
 
   $(".time-block").each(function (index) {
     console.log($(this).attr("id"));
-    var thisHour = $(this).attr("id").split("-")[1]
-    // console.log(thisHour);
-    // console.log(dayjs().hour());
-    if (parseInt(thisHour) < dayjs().hour) {
+    var thisHour = $(this).attr("id").split("-")[1];
+    console.log(thisHour);
+    console.log(dayjs().hour());
+    if (parseInt(thisHour) < dayjs().hour()) {
       $(this).addClass("past");
-      $(this).removeClass("present")
+      $(this).removeClass("present");
       $(this).removeClass("future");
     }
-    if (parseInt(thisHour) = dayjs().hour) {
+    if (parseInt(thisHour) == dayjs().hour()) {
       $(this).addClass("present");
-      $(this).removeClass("past")
+      $(this).removeClass("past");
       $(this).removeClass("future");
     }
-    if (parseInt(thisHour) > dayjs().hour) {
+    if (parseInt(thisHour) > dayjs().hour()) {
       $(this).addClass("future");
-      $(this).removeClass("present")
+      $(this).removeClass("present");
       $(this).removeClass("past");
     }
   });
