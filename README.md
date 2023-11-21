@@ -1,5 +1,5 @@
 Name
-daily planner
+Your Daily Planner
 
 Description
 This is a simple calendar application that allows a user to save events for each hour of a typical working day (9am - 5pm). The hours of the day will change color based upon the time of day, and indicate whether it is in the past (gray), present(green), or future(red).
