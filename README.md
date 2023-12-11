@@ -9,6 +9,7 @@ https://mmullen4.github.io/HW5/
 
 Visuals
 ![Alt text](../../UCLA-VIRT-FSF-PT-10-2023-U-LOLC/05-Third-Party-APIs/02-Challenge/Assets/05-third-party-apis-homework-demo.gif)
+![Alt text](image.png)
 
 Installation
 NA
